@@ -3,6 +3,7 @@
 **/__pycache__
 **/log
 **/model
+**/yaml/*PROB*
 **/.ipynb_checkpoints/
 *.zip
 *.pdf

@@ -1,0 +1,26 @@
+model:
+  MODE: 3
+  MODE_desc: DPGN
+  NN: 3
+  PDE: both    # diff or wave
+  diff: 0.001    # Diffusion coefficient
+  edge_dim: 16
+  node_dim: 16
+  global_dim: 16
+  USE_INPUT_PRED_LOSS: False
+  pred_input_weight: 0
+  SKIP: False
+dataset:
+  REGION: SD
+  X_path: ./dataset/X_SD.npy
+  edge_index_path: ./dataset/edge_index_SD.npy
+  edge_attr_path: ./dataset/edge_attr_SD.npy
+optimizer:
+  initial_lr: 0.001
+  weight_decay: 0.0005
+train:
+  num_iter: 30000
+  num_processing_steps: 10    # number of processing steps
+  reg_coeff: 0.01    # 0.00001
+  valid_iter: 500
+  verbose_iter: 5000
