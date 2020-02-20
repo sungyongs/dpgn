@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+**/__pycache__
+**/log
+**/model
+**/.ipynb_checkpoints/
+*.zip
+*.pdf
+*.ipynb
+**/data
