@@ -13,5 +13,5 @@ PyTorch Sparse
 
 ## Run
 ```bash
-$ python main.py --file path/to/yaml file
+$ python main.py --file yaml/LA-DPGN.yaml
 ```
